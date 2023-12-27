@@ -1,0 +1,6 @@
+org\sixsentix_mobile_onboarding\Base\Base.class
+org\sixsentix_mobile_onboarding\PageObjectModel\SideBar.class
+Runners\Run.class
+org\sixsentix_mobile_onboarding\PageObjectModel\Login.class
+org\sixsentix_mobile_onboarding\PageObjectModel\Logout.class
+org\sixsentix_mobile_onboarding\PageObjectModel\Products.class
