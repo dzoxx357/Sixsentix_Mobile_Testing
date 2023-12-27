@@ -82,6 +82,8 @@ public class Steps extends TestDriverManager {
         System.out.println("Value that i want to verify: "+ ProductsCucumber.OrderPlaced.getText());
         softAssert.assertTrue(message.contains(ProductsCucumber.OrderPlaced.getText()), "Verification passed");
         logoutCucumber.logOut();
+        driver.removeApp("com.saucelabs.mydemoapp.rn");
+        driver.quit();
 
     }
 }
