@@ -2,7 +2,7 @@
 <suite name="CucumberSuite">
     <test name="CucumberTests">
         <classes>
-            <class name="org.StepDefinitions.Steps"/>
+            <class name="Feature.Second"/>
         </classes>
     </test>
 </suite>
